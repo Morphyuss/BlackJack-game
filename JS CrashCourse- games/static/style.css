@@ -1,0 +1,94 @@
+
+.container-1 , .container-2, .container-3, .container-4, .container-5 {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-container-3, .flex-box-pick-color, 
+.flex-blackjack-row-1,  .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+    background: url(https://cdn11.bigcommerce.com/s-c1tzcg0txe/images/stencil/500x659/products/5890/732/ozonepark_2465_764518940__86007.1490639024.jpg?c=2&imbypass=on) center;
+    color: #ffffff;
+
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+    text-align: center;
+}
+
+.flex-backjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+.flex-blackjack-row-2 div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table th, td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+
+.container-2 {
+    border: 1px solid red;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    justify-content: space-around;
+
+}
+
+.flex-box-container-2 img {
+    border: 1px solid green;
+    padding: 10px;
+}
+
+
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+
